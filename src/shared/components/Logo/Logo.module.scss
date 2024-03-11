@@ -1,0 +1,20 @@
+.logo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+
+  margin: 0;
+  padding-left: 50px;
+
+  text-decoration: none;
+  color: #000;
+  &:hover {
+    .accent {
+      color: rgba(21, 101, 192, 0.8);
+    }
+  }
+}
+
+.accent {
+  color: #1565c0;
+}
