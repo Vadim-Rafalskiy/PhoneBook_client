@@ -1,3 +1,5 @@
+@import './normalize.css';
+
 body {
   background-image: url('./img/back-ground-2.png');
   background-repeat: no-repeat;
