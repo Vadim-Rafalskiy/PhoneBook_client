@@ -26,7 +26,7 @@ const ContactsPage = () => {
         <PhoneBookForm onSubmit={handleSubmit} />
         <PhoneBookFilter />
         <ContactList />
-        {!isContacts && <p>Contacts list is empty!</p>}
+        {!isContacts && <p className={styles.emptyContainer}>Contacts list is empty!</p>}
       </div>
     </>
   );

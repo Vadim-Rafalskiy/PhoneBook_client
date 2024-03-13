@@ -4,6 +4,21 @@
   padding: 0 20px;
 }
 
+.emptyContainer {
+  margin: 0 auto;
+
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+
+  width: 250px;
+  padding: 10px;
+  background-color: rgba(255, 0, 0, 0.1);
+
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
 .filter {
   width: 400px;
   margin: 28px auto 0 auto;
