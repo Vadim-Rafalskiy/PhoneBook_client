@@ -2,7 +2,6 @@ import axios from 'axios';
 
 const instance = axios.create({
   baseURL: 'https://phonebook-server-l7ct.onrender.com/api',
-  // baseURL: 'http://localhost:3002/api',
 });
 
 const setToken = token => {
