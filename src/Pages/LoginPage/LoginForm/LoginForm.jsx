@@ -1,4 +1,5 @@
-import TextFieldMui from 'shared/components/TextFieldMui/TextFieldMui';
+import { TextField } from 'components/Input/TextField.jsx';
+import { nanoid } from 'nanoid';
 
 import BasicButtons from '../../../shared/components/BasicButtons/BasicButtons';
 import useForm from '../../../shared/hooks/useForm';
@@ -14,8 +15,8 @@ const LoginForm = ({ onSubmit }) => {
 
   return (
     <form onSubmit={handleSubmit} className={styles.form}>
-      <TextFieldMui value={email} handleChange={handleChange} {...fields.email} />
-      <TextFieldMui value={password} handleChange={handleChange} {...fields.password} />
+      <TextField id={nanoid()} value={email} handleChange={handleChange} {...fields.email} />
+      <TextField id={nanoid()} value={password} handleChange={handleChange} {...fields.password} />
       <BasicButtons>Login</BasicButtons>
     </form>
   );
